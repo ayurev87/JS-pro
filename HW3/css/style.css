@@ -1,0 +1,48 @@
+    body {
+        background: #E3FDFD;
+        color: #71C9CE;
+        font-family: Arial;
+    }
+
+
+    .center {
+        /* padding-right: calc(50% - 600px); */
+        padding-left: calc(50% - 300px);
+    }
+
+    input, textarea, button {
+        margin: 20px 0px;
+        padding: 25px;
+        border-radius: 15px;
+        border: 0px;
+    }
+
+    input:focus-visible, textarea:focus-visible {
+        outline: none;
+        box-shadow: inset 5px 5px 10px #A6E3E9,
+            inset -5px -5px 10px #ffffff;
+    }
+
+    button {
+        background: linear-gradient(145deg, #E3FDFD, #CBF1F5);
+        box-shadow: 10px 10px 19px #A6E3E9,
+            -10px -10px 19px #ffffff;
+    }
+
+    input, textarea {
+
+        background: #E3FDFD;
+        box-shadow: 10px 10px 19px #A6E3E9,
+            -10px -10px 19px #ffffff;
+    }
+
+    .feedback {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+        height: 80px;
+    }
+
+    .changePage {
+        margin-top: 20px;
+    }
